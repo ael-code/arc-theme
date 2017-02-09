@@ -205,6 +205,10 @@ StScrollBar {
   border-right-width: 1px;
   border-left-width: 5px;
   color: transparent; }
+  .popup-menu-item:active .popup-slider-menu-item, .popup-menu-item:active
+  .slider {
+    -slider-background-color: rgba(0, 0, 0, 0.2);
+    -slider-active-background-color: #ffffff; }
 
 .check-box CinnamonGenericContainer {
   spacing: .2em;
